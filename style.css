@@ -1,0 +1,68 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#navbar {
+    background-color: #333;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li {
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+#navbar ul li a:hover {
+    color: yellow;
+}
+
+section {
+    padding: 100px 20px;
+    margin-top: 50px;
+}
+
+#home {
+    background-color:goldenrod;
+    height: 100vh;
+}
+
+#about {
+    background-color: lightblue;
+    height: 100vh;
+}
+
+#services {
+    background-color: lightgreen;
+    height: 100vh;
+}
+
+#contact {
+    background-color: lightcoral;
+    height: 100vh;
+}
+
